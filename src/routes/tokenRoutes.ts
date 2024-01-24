@@ -1,9 +1,9 @@
 
 import express, { Router } from 'express';
-import userController from '../controllers/userController';
+import tokenController from '../controllers/tokenController';
 
 const router: Router = express.Router();
 
-router.post('/users', userController);
+router.use('/token', tokenController);
 
 export default router;

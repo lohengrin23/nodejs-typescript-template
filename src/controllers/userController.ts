@@ -1,4 +1,4 @@
-// src/controllers/userController.ts
+
 import express, { Router, Request, Response } from 'express';
 import UserService from '../services/userService';
 

@@ -1,4 +1,4 @@
-// src/models/userModel.ts
+
 import { DataTypes, Model } from 'sequelize';
 import sequelize from '../../src/sequelize';
 
@@ -26,7 +26,7 @@ UserModel.init(
   },
   {
     sequelize,
-    tableName: 'users', // Adjust the table name as needed
+    tableName: 'users',
   }
 );
 
